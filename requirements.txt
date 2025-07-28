@@ -3,7 +3,7 @@ fastapi
 uvicorn
 
 # --- Document Handling ---
-PyMuPDF==1.23.19       # for PDF (fitz)
+PyMuPDF       # for PDF (fitz)
 python-docx            # for .docx
 extract-msg            # for .msg
 beautifulsoup4         # for .eml HTML parsing
