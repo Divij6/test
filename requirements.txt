@@ -15,7 +15,10 @@ langchain
 langchain-google-genai
 sentence-transformers
 torch
-faiss-cpu              # use faiss-gpu if running on GPU
+faiss-cpu
+langchain-community
+
+# use faiss-gpu if running on GPU
 
 # --- Security / Token Auth (optional, already covered in FastAPI) ---
 httpx                  # (used by LangChain or Gemini clients)
