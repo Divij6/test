@@ -78,7 +78,7 @@ def verify_token(request: Request):
 
 
 # ---- Embedding Model ----
-embedding_model = HuggingFaceEmbeddings(model_name="./models/paraphrase-MiniLM-L6-v2")
+embedding_model = HuggingFaceEmbeddings(model_name="./models/paraphrase-MiniLM-L3-v2")
 
 faiss_store = None
 
